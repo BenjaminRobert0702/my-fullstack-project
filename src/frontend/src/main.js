@@ -15,7 +15,7 @@ app.use(router)
 
 app.use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyCAqdwRPpTtDGc6lWZKlSO0EPgkAKRo-8o',
+        key: '', //enter your gmaps api key
         libraries: 'places',
         v: 'weekly'
     }
